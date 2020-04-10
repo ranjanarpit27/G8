@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div>
+<header>    
+   <div class="logo">
+        <img src="images/logo.jpg">
+        <br>
+        <a style="color: white; margin-left: 22px">LIBRARY MANAGEMENT SYSTEM</a>     
+    </div>    
+    <nav>
+               <ul>
+        <li><a href="index.html"><span class="glyphicon glyphicon-home">.HOME</span></a></li>
+        <li><a href="admin.html"><span class="glyphicon glyphicon-user">.ADMIN</span></a></li>
+        <li><a href="book.html"><span class="glyphicon glyphicon-book">.BOOKS</span></a></li>
+        <li><a href="student_login.html"><span class="glyphicon glyphicon-log-in">.LOG-IN</span></a></li>
+        <li><a href="student_login.html"><span class="glyphicon glyphicon-log-out">.LOG-OUT</span></a></li>
+        <li><a href="registration.html"><span class="glyphicon glyphicon-education">.SIGN-UP</span></a></li>
+        <li><a href="feedback.html"><span class="glyphicon glyphicon-comment">.FEEDBACK</span></a></li>
+        </ul>
+    </nav>  
+</header>
+    
+<section>
+    <div class="reg_img">
+    <br><br>
+    <div class="box2">
+        <h1 style="text-align: center; font-size:50px;">Library &nbsp;Management&nbsp; System</h1>
+        <hr style="margin-left: 124px;margin-right: 124px;">
+        <h1 style="text-align: center; font-size: 25px;">New&nbsp;&nbsp;User&nbsp;&nbsp;Registration </h1>
+        <hr style="margin-left: 124px;margin-right: 124px;">
+        
+    <form name="registration" action="process.php" method="">
+    <div class="login">
+        <input class="form-control" type="text" name="first" placeholder="First Name" required=""><br>
+         <input class="form-control" type="text" name="last" placeholder="Last Name" required=""><br>
+        <input class="form-control" type="text" name="username" placeholder="User ID" required=""><br>
+        <input class="form-control" type="text" name="email" placeholder="E-mail" required=""><br>
+        <input class="form-control" type="password" name="password" placeholder="Password" required=""><br>
+        <input class="btn btn-default" type="submit" name="submit" value="Sign Up" style="color: black; width: 70px; text-align: center; height: 30px; background-color: lightblue" >
+    </div>
+    </form>
+        <hr style="margin-left: 124px;margin-right: 124px;">
+    </div>        
+    </div>
+</section>
+    
+<footer>
+     <br>
+     <div class="contact" style="color: white;">
+        <h1 style="font-size: 30px; margin-left: 140px;" >Contact Us</h1> 
+        <ul style="word-spacing: 300px; margin-left: 250px; font-size: 20px; font-family: monospace">
+        <a >Address:</a>  
+        <a>Phone-No:</a> 
+        <a> Email-Id:</a></ul>
+    <div style="display: inline-block">
+        <ul>
+        <a style="color: white; background-color: black; width: 300px; float: left; margin-left: 250px;" > 
+             Lovely Professional University<br>
+             Block 14,<br>
+             Jalandhar-Delhi G.T.Road (NH-1)<br>
+             Phagwara, Punjab (India)-144411</a>
+        <a style="color: white; background-color: black; width: 300px; float: left; margin-left: 100px;"> 
+            +91-1824-404441<br> 
+            +91-7057-236356</a>
+        <a  style="color: white; background-color: black; width: 300px; float: left; margin-left: 110px;"> info@lms.in</a>
+        </ul>
+    </div> 
+    </div>
+</footer>
+<footer style="height: 30px; text-align: center; color: aliceblue">
+      &copy; 2020 LMS.All Rights Reserved.  &nbsp;
+        <span class="separator">|&nbsp;</span> Design by 
+        <a href="http://arpitranjan.com">Arpit Ranjan</a>
+</footer>
+</div>
+</body>
+</html>
