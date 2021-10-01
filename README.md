@@ -4,3 +4,4 @@ This project is basically designed to keeping the record of issued books, return
 This project is designed using HTML, CSS, JAVASCRIPT, BOOTSTRAP 3.
 This is only frontend of library management system.
 Thank you.......
+![image](/home.png)
